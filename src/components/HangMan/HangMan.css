@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    /* *########### hangMAnModel */
+    .hang-man-model {
+        @apply absolute duration-[500ms] bg-stone-800
+    }
+    /* *########### option */
+    .option {
+        @apply  cursor-pointer bg-zinc font-bold  w-[100px] text-stone-600
+    }
+    /* *########### Hint-Icon */
+    .hint-icon {
+        @apply  absolute min-w-[122px] duration-[500ms] top-[130%] left-1/2 transform -translate-x-1/2 bg-stone-600 text-zinc font-bold text-xs px-3 py-1 rounded-md shadow-lg
+    }
+}
